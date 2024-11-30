@@ -17,6 +17,7 @@ main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
+    padding-bottom: 5rem;
 }
 
 section {
@@ -24,6 +25,7 @@ section {
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
 }
 
 footer {
@@ -34,4 +36,31 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.gallery-item {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.contact p {
+    margin: 0.5rem 0;
 }
